@@ -12,10 +12,8 @@ const swiper = new Swiper('.swiper', {
 });
 
 const swiper2 = new Swiper('.swiper2', {
-    loop: true,
-    
     autoplay: {
-        delay: 2000,
+        delay: 1000,
         pauseOnMouseEnter: true,
     },
     pagination: {
