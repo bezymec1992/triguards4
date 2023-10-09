@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper', {
+new Swiper('.swiper', {
     direction: 'horizontal',
     loop: true,
     grabCursor: true,
@@ -9,17 +9,15 @@ const swiper = new Swiper('.swiper', {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
-});
 
-const swiper2 = new Swiper('.swiper2', {
     autoplay: {
-        delay: 1000,
+        delay: 2000,
         pauseOnMouseEnter: true,
     },
-    pagination: {
-        el: '.swiper-pagination',
-    },
+
 });
+
+
 
 const form = document.getElementById("form");
 form.addEventListener('submit', (e) => {
