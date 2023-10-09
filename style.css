@@ -30,12 +30,6 @@ main,
     padding-bottom: 19px;
     padding-top: 7px;
 }
-@media only screen and (max-width: 410px) {
-    .main__title-last {
-     font-size: 28px;
-    }
-}
-
 
 .main__txt {
     color: #FFF;
@@ -1223,4 +1217,20 @@ input::placeholder {
 
 .person__time2 {
     padding-top: 0px;
+}
+
+@media only screen and (max-width: 410px) {
+    .main__title-last {
+     font-size: 28px;
+    }
+
+    .main__title,
+    .sign__title2,
+    .company__title{
+        font-size: 28px;
+    }
+    
+    .vs__txt {
+        font-size: 18px;
+    }
 }
